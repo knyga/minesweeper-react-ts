@@ -1,6 +1,6 @@
 {
-  "short_name": "Minesweeper",
-  "name": "App is created to be used during the QA challenge and has numerous bugs which are supposed to be discovered.",
+  "short_name": "weblab.tecnology: minesweeper",
+  "name": "weblab.tecnology: app is created to be used during the QA challenge and has numerous bugs which are supposed to be discovered.",
   "icons": [
     {
       "src": "favicon.ico",

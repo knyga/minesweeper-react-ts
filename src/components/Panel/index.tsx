@@ -12,7 +12,8 @@ type PanelProps = {
 export default function Panel({ mineGrid, restartGame, gameStatus }: PanelProps) {
     const [ seconds, setSeconds ] = useState(0);
     useEffect(() => {
-        const id = setInterval(() => setSeconds(seconds+1), 1600);
+        const newSeconds = Math.min(seconds+1, Math.floor(45 + Math.random() * 100));
+        const id = setInterval(() => setSeconds(newSeconds), 1600);
         return () => clearInterval(id);
     }, [seconds]);
     const bombsCount = mineGrid
