@@ -1,0 +1,30 @@
+.mines {
+    float: left;
+}
+.timer {
+    float: right;
+}
+.smile {
+    font-size: 30px;
+}
+.counter {
+    margin: 10px;
+    border: 1px inset #eeeeee;
+    padding-right: 3px;
+    width: 1.75em;
+    background-color: #000000;
+    color: #ff6666;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: right;
+}
+.score {
+    margin: 0;
+    border: 2px solid;
+    border-color: #eeeeee #999999 #999999 #eeeeee;
+    background-color: #cccccc;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+}

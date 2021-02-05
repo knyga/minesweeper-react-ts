@@ -1,0 +1,10 @@
+.grid {
+    border-spacing: 0;
+    background-color: #666666;
+    color: #000000;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+}
